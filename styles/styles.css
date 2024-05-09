@@ -53,8 +53,8 @@ footer{
 }
  /*Class Selectors*/
  .box{
-  margin: 2rem;
-  border: 1px solid rgba(0, 0, 0, 1);
+  margin: 1rem;
+  border: 3px solid rgba(0, 0, 0, 1);
   padding: 1rem;
   background-color: rgb(178, 158, 128);
   color: rgb(3, 3, 2);
@@ -66,9 +66,9 @@ footer{
   }
   aside h2{
     color: #e1d9ce;
-    position: relative;
-    top: 30px;
-    left: 1px;
+    position: absolute;
+    top: 880px;
+    left: 105px;
   }
   aside img{
     width: 250px;
