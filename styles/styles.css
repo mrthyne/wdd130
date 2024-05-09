@@ -70,8 +70,9 @@ footer {
 
 aside h2 {
   position: absolute;
-  top: 845px;
+  top: 1px;
   left: 105px;
+  color: antiquewhite;
 }
 
 aside img {
