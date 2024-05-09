@@ -1,9 +1,6 @@
 * {
   box-sizing: content-box;
-  margin: 1px;
-  padding: 3px;
   width: 100%;
-  border: solid #5b5b5b 2px;
 }
 nav {
     background-color: steelblue;
