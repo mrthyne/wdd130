@@ -62,6 +62,7 @@ footer{
   color: rgb(3, 3, 2);
  }
   aside{
+    position: relative;
     width: 18em;
     text-align: center;
     height: auto;
