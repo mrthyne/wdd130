@@ -1,3 +1,10 @@
+* {
+  margin: 3px;
+  padding: 5px;
+  width: 100%;
+  border: solid #5b5b5b 10px;
+  box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
