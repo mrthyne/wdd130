@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --accent-color: #28a745;
+    --text-color: #212629;
+    --background-color: #ffffff;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero .company-name {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    z-index: 2;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+}
+
+.hero article p {
+    margin-right: 150px; /* Adjust as needed */
+    max-width: calc(100% - 170px); /* Adjust as needed */
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+}
