@@ -2,8 +2,6 @@
 
 :root {
     --primary-color: #007bff;
-    --secondary-color: #6c757d;
-    --accent-color: #28a745;
     --text-color: #212629;
     --background-color: #ffffff;
 }
@@ -30,47 +28,23 @@ p {
     text-decoration: none;
 }
 
-.hero {
-    position: relative;
-    overflow: hidden;
-}
-
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
 
 .hero .company-name {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--background-color);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--background-color);
     padding: 10px 20px;
-    opacity: 0.9;
-    z-index: 2;
 }
 
 .hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--background-color);
     padding: 20px;
-    z-index: 2;
 }
 
 .hero article img {
     float: right;
     margin-left: 20px;
-}
-
-.hero article p {
-    margin-right: 150px; /* Adjust as needed */
-    max-width: calc(100% - 170px); /* Adjust as needed */
-    position: relative;
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
 }
