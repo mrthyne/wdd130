@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --primary-color: #007bff;
-    --text-color: #212629;
-    --background-color: #ffffff;
+    --primary-color: #72b3f8;
+    --text-color: #123347;
+    --background-color: SS#000000;
 }
 
 body {
@@ -47,4 +47,14 @@ p {
 .hero article img {
     float: right;
     margin-left: 20px;
+}
+.hero h1{
+    position: absolute;
+    top: 95px;
+    left: 555px;
+    color: whitesmoke
+    var(--background-color)
+}
+body nav{
+    background-color: gray;
 }
