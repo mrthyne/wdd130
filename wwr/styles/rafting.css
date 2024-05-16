@@ -5,7 +5,7 @@
   --secondary-color: #6c757d;
   --accent-color: #28a745;
   --body-bg: #ffffff;
-  --text-color: #4e5e6e;
+  --text-color: #212529;
   --link-color: #007bff;
 }
 
@@ -19,13 +19,13 @@ h1 {
     background-color: #586572;
 }
 
-p, article {
+p.article {
   color: white;
   background-color: #4c545b;
   font-family: 'Briem Hand';
 }
 
-img, article {
+img.article {
   right: 50%;
 }
 
