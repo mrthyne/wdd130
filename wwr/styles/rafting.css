@@ -1,60 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-    --primary-color: #72b3f8;
-    --text-color: #123347;
-    --background-color: SS#000000;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --accent-color: #28a745;
+  --body-bg: #ffffff;
+  --text-color: #212529;
+  --link-color: #007bff;
+}
+
+nav a{
+  font-family: 'Playfair Display';
+  font-size: small;
+}
+
+h1 {
+    color: #e3d1d1;
+    background-color: #586572;
+}
+
+p article {
+  color: white;
+  background-color: #4c545b;
+  font-family: 'Briem Hand';
+}
+
+img article {
+  right: 50%;
+}
+
+.social-media-links a {
+  text-decoration: none;
 }
 
 body {
-    font-family: 'PT Serif', serif;
-    color: var(--text-color);
-    background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
-    max-width: 800px;
-    margin: 0 auto;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color);
-}
-
-p {
-    color: var(--text-color);
-}
-
-.social-links a {
-    text-decoration: none;
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto; 
 }
 
 .hero img {
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.hero .company-name {
-    color: var(--primary-color);
-    background-color: var(--background-color);
-    padding: 10px 20px;
+.hero h1 {
+  position: absolute;
+  top: 1px;
+  left: 1%;
+  background-color: #7e989f64;
+  padding: 10px;
+  width: 95%;
+  text-align: center;
 }
 
 .hero article {
-    background-color: var(--background-color);
-    padding: 20px;
+  position: absolute;
+  bottom: 40px;
+  background-color: #52555894;
+  padding: 0px;
 }
 
 .hero article img {
-    float: right;
-    margin-left: 20px;
+  width: 150px;
+  float: right;
+  margin-left: 40px;
 }
-.hero h1{
-    position: absolute;
-    top: 95px;
-    left: 555px;
-    color: whitesmoke
-    var(--background-color)
-}
-body nav{
-    background-color: gray;
+
+.hero article p {
+  line-height: 1;
+  color: #0c0a0a;
+  margin: 1;
 }
