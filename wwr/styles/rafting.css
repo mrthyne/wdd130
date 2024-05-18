@@ -123,9 +123,9 @@ body {
 
 .hero h1 {
   position: absolute;
-  top: -35px;
+  top: -60px;
   left: 0.5%;
-  background-color: rgba(154, 185, 202, 0.582);
+  background-color: rgba(174, 183, 189, 0.687);
   padding: 5px;
   width: 206.5%;
   text-align: center;
@@ -136,7 +136,7 @@ body {
 .hero article {
   position: absolute;
   bottom: 5px;
-  background-color: rgba(229, 230, 231, 0.582);
+  background-color: rgba(222, 238, 255, 0.653);
   padding: 10px;
   margin: 6rem 10rem 1rem -18rem;
   width: 205%;
