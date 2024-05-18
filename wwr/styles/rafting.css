@@ -9,6 +9,15 @@
   --link-color: #007bff;
 }
 
+header {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 10000px;
+}
+
 nav a{
   font-family: 'Playfair Display';
   font-size: small;
