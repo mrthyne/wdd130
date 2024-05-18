@@ -9,12 +9,12 @@
   --link-color: #007bff;
 }
 
-header { 
-  margin: 1rem auto;
+header {
+  margin: 1rem;
   display: grid;
   grid-template-columns: 120px 1fr 2fr;
   align-items: center;
-  border-bottom: 1px solid #454545;
+  border-bottom: 1px solid #ccc;
   max-width: 10000px;
 }
 
@@ -68,20 +68,16 @@ nav {
   border: #ccc;
 }
 
+
 nav a{
   font-family: 'Playfair Display';
   font-size: small;
 }
 
 h1 {
-    color: #464343;
-    background-color: #586572;
-}
-
-p article {
-  color: white;
-  background-color: #151616;
-  font-family: 'Briem Hand';
+    color: rgb(15, 79, 116);
+    font-size: 2rem;
+    font-family: 'Playfair Display';
 }
 
 article h2 {
@@ -106,7 +102,8 @@ body {
   background-color: #c9e0f3;
   font-size: 16px;
   display: block;
-  margin: 0 auto;
+  margin: 10px;
+  align-items: center;
 }
 
 .hero {
@@ -118,35 +115,35 @@ body {
 
 .hero img {
   display: block;
-  width: 205%;
+  width: 208.5%;
   height: auto;
   border-radius: 10px;
   margin: 1rem 1rem 1rem -18rem;
 }
 
-
 .hero h1 {
   position: absolute;
-  top: -70px;
+  top: -35px;
   left: 0.5%;
   background-color: rgba(154, 185, 202, 0.582);
   padding: 5px;
-  width: 203%;
+  width: 206.5%;
   text-align: center;
   margin: 6rem 10rem 1rem -18.1rem;
   font-size: 50px;
 }
+
 .hero article {
   position: absolute;
-  bottom: 9px;
-  background-color: rgba(154, 185, 202, 0.242);
+  bottom: 5px;
+  background-color: rgba(154, 185, 202, 0.582);
   padding: 10px;
-  margin: 1rem auto;
-  width: 95%;
+  margin: 6rem 10rem 1rem -18rem;
+  width: 205%;
 }
 
 .hero article img {
-  width: 100px;
+  width: 120px;
   float: right;
   margin-left: 5px;
 }
@@ -155,27 +152,32 @@ body {
   line-height: 1;
   color: #0c0a0a;
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .history {
   border: 1px solid black;
   padding: 0;
-  margin: 1rem auto;
+  margin: 1rem -4rem 1rem 0.7rem;
   border-radius: 10px;
 }
 
- 
 .history h2 {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   text-align: center;
 }
+
+.utot {
+  font-size: 20px;
+  margin: 5px;
+}
+
 .adventure {
   border: 1px solid black;
   padding: 0;
-  margin: 1rem auto;
+  margin: 1rem -4rem 1rem 0.7rem;
   border-radius: 10px;
 }
 
@@ -195,14 +197,12 @@ section h2 {
   background-color: rgb(96, 144, 172);
 }
 
-
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
+  grid-template-columns: 430px 400px 410px;
   justify-content: space-around;
-  margin: 1px auto;
-  max-width: 80%;
+  margin: 1px;
+  max-width: 10%;
   height: auto;
   align-items: center;
   padding: 2px;
@@ -222,7 +222,7 @@ section h2 {
   border: 1px solid black;
   text-align: center;
   font-size: 1.5rem;
-  margin: 1rem auto;
+  margin: 1rem -4rem 1rem 0.8rem;
   display: grid;
   grid-template-columns: 700px 1fr;
   align-items: center;
@@ -246,6 +246,6 @@ footer .sociallinks a {
 }
 
 footer .sociallinks img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 }
