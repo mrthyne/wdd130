@@ -240,16 +240,16 @@ section h2 {
 
 footer .sociallinks {
   display: flex;
-  margin: 1px;
+  margin: 3px;
 }
 
 footer .sociallinks a {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 footer .sociallinks img {
-  width: 40px;
-  height: 3-0px;
+  width: 30px;
+  height: 30px;
 }
 
 /* Additions to support contact.html */
@@ -271,13 +271,13 @@ footer .sociallinks img {
 }
 
 .profile {
-  margin-bottom: 10px; /* Adjusted margin */
+  margin-bottom: 20px;
 }
 
 .profile img {
   width: 200px;
   border-radius: 50%;
-  margin-bottom: 5px; /* Adjusted margin */
+  margin-bottom: 10px;
 }
 
 .contact-form {
@@ -299,7 +299,7 @@ footer .sociallinks img {
 .contact-form textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 5px; /* Adjusted margin */
+  margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
