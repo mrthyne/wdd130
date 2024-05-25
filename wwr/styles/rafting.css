@@ -257,13 +257,13 @@ footer .sociallinks img {
 .employee-profiles {
   padding: 10px;
   display: flex;
-  justify-content: space-between; /* Align profiles horizontally with space between */
-  flex-wrap: wrap; /* Allow profiles to wrap to the next row */
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 .employee-profiles h2 {
-  background: none    ; /* Remove background */
-  border: none; /* Remove border */
+  background: none    ; 
+  border: none; 
 }
 
 .maps {
