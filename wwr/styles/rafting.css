@@ -253,6 +253,7 @@ footer .sociallinks img {
 }
 
 /* Additions to support contact.html */
+
 .employee-profiles {
   padding: 10px;
   display: flex;
@@ -261,7 +262,7 @@ footer .sociallinks img {
 }
 
 .employee-profiles h2 {
-  background: none; /* Remove background */
+  background: none    ; /* Remove background */
   border: none; /* Remove border */
 }
 
