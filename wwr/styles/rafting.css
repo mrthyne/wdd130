@@ -158,11 +158,13 @@ body {
   padding: 0;
   margin: 1rem -4rem 1rem 0.7rem;
   border-radius: 10px;
+  text-align: center;
 }
 
 .history h2 {
   padding-bottom: 10px;
   text-align: center;
+  color: #092239;
 }
 
 .utot {
@@ -335,7 +337,6 @@ footer .sociallinks img {
   letter-spacing: 10px;
   text-align: center;
 }
-
 .content {
   padding: 20px;
 }
