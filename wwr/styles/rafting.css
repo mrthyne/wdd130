@@ -335,6 +335,16 @@ footer .sociallinks img {
   letter-spacing: 10px;
   text-align: center;
 }
+.trip-description {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trip {
+  flex: 0 0 33.33%; /* This ensures each trip takes up 33.33% of the container */
+  padding: 10px;
+  box-sizing: border-box;
+}
 .content {
   padding: 20px;
 }
